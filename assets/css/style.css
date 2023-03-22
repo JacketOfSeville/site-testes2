@@ -21,14 +21,30 @@ body {
 }
 
 .container {
-  margin: 50px 50px 50px 220px;
+  margin: 60px 20px 10px 25px;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   float: center;
 }
 
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
 /*****************************/
+/*Sidebar*/
+
+.sidebar-btn {
+  position: fixed;
+  height: 50px;
+  width: 60px;
+  top: 0;
+  margin: 20px 20px;
+  background: #111;
+  border-radius: 10px;
+}
 
 .sidebar{
   position: fixed;
@@ -37,34 +53,37 @@ body {
   left: 0;
   bottom: 0;
   background: #111;
-  padding-top: 50px;
+  padding-top: 75px;
   margin: 0 20px 0 0;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
 .sidebar h1{
-   display: block;
-   padding: 10px 20px;
-   color: #fff;
-   text-decoration: none;
-   font-family: "Rubik";
-   letter-spacing: 2px;
-   font-weight: 400;
-   margin: 0;
-   font-size: 25px;
-   text-transform: uppercase;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rubik";
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 .sidebar a{
-   display: block;
-   padding: 10px 20px;
-   color: #bbb;
-   text-decoration: none;
-   font-family: "Rubik";
-   letter-spacing: 2px;
+  display: block;
+  padding: 10px 20px;
+  color: #bbb;
+  text-decoration: none;
+  font-family: "Rubik";
+  letter-spacing: 2px;
 }
 
 .sidebar a:hover{
-   color: #fff;
-   margin-left: 20px;
-   transition: 0.4s;
+  color: #fff;
+  margin-left: 20px;
+  transition: 0.4s;
 }
