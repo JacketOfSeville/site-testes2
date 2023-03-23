@@ -21,14 +21,12 @@ body {
 }
 
 .container {
-  margin: 20px 20px 10px 25px;
+  margin: 60px 20px 10px 25px;
   padding: 20px;
   position: relative;
-  background: rgba(255, 255, 255, 0.26);
+  background: #111;
+  color: #fff;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 }
 
 .container#header {
@@ -38,7 +36,8 @@ body {
   margin: -10px 20px 10px 25px;
   padding: 0px 10px;
   position: relative;
-  background-color: #fff;
+  background-color: #111;
+  color: #fff;
   max-width: fit-content;
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 img#principal {
-  border: 1.5mm solid rgb(255, 255, 255);
+  border: 1.5mm solid #111;
   border-radius: 50%;
   height: 350px;
   width: 350px;
@@ -118,4 +117,68 @@ div#banner {
   color: #fff;
   margin-left: 20px;
   transition: 0.4s;
+}
+
+/*****************************/
+/*Área de Contato*/
+
+.primerCont {
+  margin-top: 60px;
+}
+
+.contato {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.contato {
+  margin-bottom: 20px;
+}
+
+ul.contato li {
+  display: inline-block;
+  color: white;
+}
+
+.contato h1 {
+  margin: 5px 0px;
+}
+
+.contato p {
+  margin: 5px 0px;
+}
+
+.aboutEsquerda li{
+  margin: 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutEsquerda img{
+  width: 75px;
+  height: 75px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.aboutDireita {
+  margin-top: 0px;
+  margin-left: 80px;
+}
+
+#contatoEmail {
+  background: #237037;
+}
+
+#contatoGithub {
+  background: #111;
+}
+
+#contatoDiscord {
+  background: #4e5d94;
 }
