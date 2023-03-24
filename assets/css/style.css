@@ -45,6 +45,19 @@ body {
   margin: 5px 10px;
 }
 
+.container#headerContato h1 {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.container#headerContato {
+  margin: -60px auto 20px auto;
+  padding: 4px 5px 5px 5px;
+  border-radius: 10px;
+}
+
 #main {
   transition: margin-left .5s;
   padding: 20px;
@@ -181,4 +194,8 @@ ul.contato li {
 
 #contatoDiscord {
   background: #4e5d94;
+}
+
+#contatoYoutube {
+  background: #f81010;
 }
